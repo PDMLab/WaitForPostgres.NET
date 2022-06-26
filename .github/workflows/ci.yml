@@ -27,8 +27,10 @@ jobs:
           dotnet restore
       - name: Build
         run: |
+          cd src  
           dotnet build --configuration $config --no-restore
       - name: Test
         run: |
+          cd src
           docker pull postgres:14
           dotnet test -l "console;verbosity=detailed"
