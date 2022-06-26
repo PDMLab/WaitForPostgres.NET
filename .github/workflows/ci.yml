@@ -23,6 +23,7 @@ jobs:
         
       - name: Install dependencies
         run: |
+          cd src
           dotnet restore
       - name: Build
         run: |
