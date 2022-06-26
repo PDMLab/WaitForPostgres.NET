@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WaitForPostgres.Tests", "WaitForPostgres.Tests\WaitForPostgres.Tests.csproj", "{1D2F5C8D-28D0-46B1-B20C-9259FF7168BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WaitForPostgres", "WaitForPostgres\WaitForPostgres.csproj", "{6BA7FD60-689F-42D3-84B5-EF596E8B77DF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1D2F5C8D-28D0-46B1-B20C-9259FF7168BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D2F5C8D-28D0-46B1-B20C-9259FF7168BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D2F5C8D-28D0-46B1-B20C-9259FF7168BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D2F5C8D-28D0-46B1-B20C-9259FF7168BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BA7FD60-689F-42D3-84B5-EF596E8B77DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BA7FD60-689F-42D3-84B5-EF596E8B77DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BA7FD60-689F-42D3-84B5-EF596E8B77DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BA7FD60-689F-42D3-84B5-EF596E8B77DF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
