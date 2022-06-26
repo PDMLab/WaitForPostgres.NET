@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <Title>WaitForPostgres</Title>
+        <Authors>Alexander Zeitler</Authors>
+        <Description>Wait for Postgres conection to be available using .NET</Description>
+        <Copyright>Alexander Zeitler</Copyright>
+        <PackageProjectUrl>https://github.com/PDMLab/WaitForPostgres.NET</PackageProjectUrl>
+        <PackageLicenseUrl>https://github.com/PDMLab/WaitForPostgres.NET/blob/main/LICENSE</PackageLicenseUrl>
+        <RepositoryUrl>https://github.com/PDMLab/WaitForPostgres.NET</RepositoryUrl>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Npgsql" Version="6.0.5" />
+    </ItemGroup>
+
+
+    <PropertyGroup>
+        <Version>0.1.0</Version>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <None Include="..\README.md">
+            <Pack>True</Pack>
+            <PackagePath>\</PackagePath>
+        </None>
+    </ItemGroup>
+</Project>
